@@ -20,7 +20,7 @@ if(isset($_POST['submit']))
 	$run_update = mysqli_query($con,$update);
 
 	if($run_update){
-		header('location:admin.php');
+		header('location:GlobaltronicsStaff.php');
 	}else{
 		echo "Data not update";
 	}
