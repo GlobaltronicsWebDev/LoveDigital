@@ -25,7 +25,7 @@ if(isset($_POST['submit'])){
   	$run_data = mysqli_query($con,$insert_data);
 
   	if($run_data){
-  		header('location:Thanyou.php'); //change the Location to Thankyou Create your own thankyou page
+  		header('location:Thankyou.php'); //change the Location to Thankyou Create your own thankyou page
   	}else{
   		echo "Data not insert";
   	}
