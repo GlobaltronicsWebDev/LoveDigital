@@ -128,7 +128,7 @@
             </div>
             </a>
         </div>
-    
+  
       </div>
       <div class="col" style="cursor: pointer;margin-bottom:20px">
         <div class="card h-80" style="background-color: #D21611;">
