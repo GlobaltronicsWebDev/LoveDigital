@@ -105,6 +105,7 @@ include('db.php');
 				<th class="text-center">Template</th>
 				<th class="text-center">Picture</th>
 				<th class="text-center">Edit</th>
+				<th class="text-center">Delete</th>
 				<th class="text-center">Status</th>
 			</tr>
 
@@ -143,7 +144,9 @@ include('db.php');
 					</span>
 					
 				</td>
-			
+				<td class='text-center'>
+					<a href='#$id' data-toggle='modal' class='btn btn-danger btn-sm'>Delete</a>
+				</td>
 				<td class='text-center'>$status</td>
 			</tr>
 
@@ -608,10 +611,10 @@ while($row = mysqli_fetch_array($run_data))
 ?>
 
  <script type="text/javascript">
-	$(document).ready(function()){
-		$("#search_text").keyup(function()){
-			var search $(this).val();
-			$ajax({
+	$(document).ready(function(){
+		$("#search_text").keyup(function(){
+			var search = $(this).val();
+			$.ajax({
 					url: 'admin.php',
 					method: 'post',
 					data:{query:search},
@@ -621,9 +624,7 @@ while($row = mysqli_fetch_array($run_data))
 				});
 		});
 	});
-
-
- </script>
+</script>
 </body>
 
 
