@@ -38,7 +38,7 @@ if($run_data){
         );
 
         $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, $googleSheetUrl);
+        curl_setopt($ch, CURLOPT_URL, $1bYx_etLy_4L_J92bssYwCpGMs9r-npJovVl5YEjJU44);
         curl_setopt($ch, CURLOPT_POST, true);
         curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($postData));
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
