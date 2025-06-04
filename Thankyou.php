@@ -87,8 +87,7 @@
           <div class="card text-center" style="background-color: transparent;">
   <div class="card-body" style="background-color: #AF0D30; border: 5px solid #F12A52; border-radius: 25px;">
     <h5 class="card-title text-white">Congratulations!</h5>
-    <p class="card-text text-white">We have received your entry, please wait within 24-48 hours to receive a digital copy of your customized message<BR>
-or you can visit Eastwood Citywalk Park on February 14, 2021, between 4:00PM to 8:00PM to see your video live!</p>
+    <p class="card-text text-white">We have received your entry, please wait within 3-5mins to see your video live!</p>
   
   </div>
   
